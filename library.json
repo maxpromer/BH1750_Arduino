@@ -1,0 +1,16 @@
+{
+  "name" : "BH1750",
+  "title": "BH1750 Light Sensor",
+  "category" : "Sensors",
+  "keywords": "light, light sensor",
+  "description": "Digital 16 bit Serial Output Type Ambient Light Sensor IC",
+  "homepage": "https://github.com/maxpromer/BH1750_Arduino",
+  "license": "MIT",
+  "git": "https://github.com/maxpromer/BH1750_Arduino",
+  "author": "INEX",
+  "url": "https://www.inex.co.th/",
+  "version": "1.0.0",
+  "board" : "",
+  "platform": ["arduino-avr","arduino-esp32"],
+  "image" : "/static/display.jpg"
+}
