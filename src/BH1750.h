@@ -13,7 +13,7 @@ class BH1750 {
 		BH1750(int address, TwoWire* bus=&Wire) ;
 		
 		void begin() ;
-		unsigned int read() ;
+		float read() ;
 		
 }
 ;

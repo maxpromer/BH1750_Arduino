@@ -16,7 +16,7 @@ void BH1750::begin() {
 	delay(180); // Wait to complete 1st H-resolution mode measurement.( max. 180ms. ) 
 }
 
-unsigned int BH1750::read() {
+float BH1750::read() {
 	this->wire->requestFrom(this->addr, 2);
 	if (this->wire->available() < 2) {
 		Serial.println("BH1750 read error");
